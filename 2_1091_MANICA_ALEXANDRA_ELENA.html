@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-player Manica Alexandra</title>
+    <link rel="stylesheet" href="2_1091_MANICA_ALEXANDRA_ELENA.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <h1>Video Player - Manica Alexandra</h1>
+    <div id="canvasFamily">
+        <canvas id="canvasMain"></canvas>
+    </div>
+
+    <div id="buttonsFamily">
+        <h2 id="idH2Choose">Choose your effect</h2>
+        <h3 id="idH3text">To go back to the original video, please put your cursor on the canvas player</h3>   
+            <div class="buttons">
+                <button id="idBtnEfectRoz">Pink Effect</button>
+                <button id="idBtnEfectThermal">Thermal Effect</button>
+                <button id="idBtnEfectGrain">Grain Effect</button>
+            </div>
+    </div>
+
+    <div class="divOperations">
+        <h2 class="H2Choose">Select an operation</h2>
+        <div class="buttonsOperations">
+            <button id="idBtnDelete">Delete current video</button>
+            <button id="idBtnMoveDown">Move down current video</button>
+            <button id="idBtnMoveUp">Move up current video</button>
+        </div>
+    </div>
+
+    <div class="files">
+        <h2 class="H2Choose">Select a new video to add to playlist</h2>
+        <input type="file" id="input" accept="video/*" />
+    </div>
+    <script src="2_1091_MANICA_ALEXANDRA_ELENA.js"></script>
+</body>
+</html>

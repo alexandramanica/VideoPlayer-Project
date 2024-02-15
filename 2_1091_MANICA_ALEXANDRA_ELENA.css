@@ -1,0 +1,88 @@
+body{
+    background-color: #DEDBD2;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #4A5759;
+}
+
+
+#canvasFamily{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#canvasMain{
+    background-color: #f7e1d7;
+    overflow: visible;
+}
+
+#buttonsFamily{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+#buttonsFamily button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #83c5be;
+    color: #4A5759;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #4A5759;
+}
+
+#idH3text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #4A5759;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.buttonsOperations button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #83c5be;
+    color: #4A5759;
+}
+
+.divOperations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.files{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    color: #4A5759;
+    font-family: 'Montserrat', sans-serif;
+}
